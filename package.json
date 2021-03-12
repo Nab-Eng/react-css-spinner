@@ -1,0 +1,20 @@
+{
+  "name": "react-css-spinner",
+  "version": "1.0.0",
+  "description": "CSS only spinners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nab-Eng/react-css-spinner.git"
+  },
+  "keywords": ["react", "css", "spinners" ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nab-Eng/react-css-spinner/issues"
+  },
+  "homepage": "https://github.com/Nab-Eng/react-css-spinner#readme"
+}
