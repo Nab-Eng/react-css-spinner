@@ -1,20 +1,34 @@
 {
   "name": "react-css-spinner",
   "version": "1.0.0",
-  "description": "CSS only spinners",
+  "description": "CSS-only spinners for React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "prettier-eslint '**/*.js' --write"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nab-Eng/react-css-spinner.git"
   },
-  "keywords": ["react", "css", "spinners" ],
+  "keywords": [
+    "react",
+    "css",
+    "spinners"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Nab-Eng/react-css-spinner/issues"
   },
-  "homepage": "https://github.com/Nab-Eng/react-css-spinner#readme"
+  "homepage": "https://github.com/Nab-Eng/react-css-spinner#readme",
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "prettier-eslint": "^12.0.0",
+    "prettier-eslint-cli": "^5.0.1"
+  }
 }
